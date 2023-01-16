@@ -1,0 +1,13 @@
+Budget;5;2;40
+Corona-virus;5;2;80
+Key staff reliance ;5;2;80
+Faulty communication;5;3;10
+GUI Knowledge;3;3;10
+Group dynamic;5;1;5
+Requirements;5;2;10
+System Bugs;3;3;10
+Design;3;2;5
+Health;3;3;20
+Contribution;5;1;5
+Other commitments;3;2;5
+Estimation Failure;3;2;5

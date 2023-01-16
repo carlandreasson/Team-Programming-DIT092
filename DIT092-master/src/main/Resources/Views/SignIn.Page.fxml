@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" stylesheets="@../Css/Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.LogInView">
+   <children>
+      <TextField fx:id="usernameField" layoutX="215.0" layoutY="212.0" prefHeight="27.0" prefWidth="265.0" promptText="User ID" />
+      <PasswordField fx:id="passwordField" layoutX="215.0" layoutY="257.0" prefHeight="27.0" prefWidth="265.0" promptText="Password" />
+      <Button fx:id="signInButton" defaultButton="true" layoutX="545.0" layoutY="410.0" mnemonicParsing="false" onAction="#signIn" prefHeight="20.0" prefWidth="100.0" text="Sign In">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="quitButton" layoutX="55.0" layoutY="410.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" text="Quit">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="274.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Icons/LTSCP logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="errorMessage" layoutX="215.0" layoutY="187.0" textFill="#e40101" />
+      <Button fx:id="createAccount" layoutX="436.0" layoutY="410.0" mnemonicParsing="false" onAction="#newUserView" prefHeight="20.0" prefWidth="100.0" text="Create Account">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

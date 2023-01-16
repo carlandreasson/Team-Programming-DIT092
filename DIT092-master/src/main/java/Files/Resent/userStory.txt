@@ -1,0 +1,36 @@
+As a developer I want to be able to create base program design to plan the scope and design the project. Acceptance criteria: deliver PDF of basic UML diagram;03/11/2020;08/11/2020;8;20
+As a project leader I want to be able to create, remove and update projects at will. Acceptance criteria: ability to create/ remove and update projects in storage;03/11/2020;12/11/2020;8;20
+As a project leader I want to store and load users so I don't have to enter the information every time;03/11/2020;18/11/2020;3;8
+As a project leader I want to store my project so I don’t have to remake my project every time;03/11/2020;16/11/2020;5;10
+As a project leader I want to be able to create team members and assign roles to monitor teams in projects;17/11/2020;16/11/2020;5;10
+As a project leader I want to create teams to make arranging users easier;05/11/2020;16/11/2020;8;10
+As a project leader I would like to be able to set up milestones to make project management easier;05/11/2020;22/11/2020;8;24
+As a user I want the GUI to use CSS so that the application will be more engaging and look professional;05/11/2020;22/11/2020;8;20
+As a user I want to be able to login so I can have a personal account;17/11/2020;22/11/2020;3;12
+As a team we want to research gui and decide what GUI tool-kit to use to be able to learn and use;17/11/2020;30/11/2020;8;15
+As a user I want to have a personal password;17/11/2020;22/11/2020;8;32
+As a user I want to have limited tries on entering the correct password so that the risk of brute-forcing passwords is mitigated;01/12/2020;08/12/2020;5;20
+As a user I want to prevent the deletion of my own user object when logged in to prevent errors when editing;12/12/2020;21/12/2020;8;32
+As project manager I want to create a backlog to keep track of all User stories;17/11/2020;22/11/2020;3;12
+As a project leader I want to store and load teams so I don't have to enter the information every time;17/11/2020;22/11/2020;3;12
+As a project manager I want several teams working on a project with several backlog;17/11/2020;22/11/2020;5;20
+As a project leader I want to avoid the the creation of users, teams and projects with invalid information;17/11/2020;22/11/2020;2;6
+As a user I want to have a user interface to navigate the program;17/11/2020;22/11/2020;8;20
+As a team we want to move the project to javaFX to be able to implement GUI;17/11/2020;22/11/2020;13;40
+As a team leader I want to be able to save data from projects to csv(excel) to make the information more accessible;17/11/2020;15/12/2020;5;15
+As a project manager I want to be able to export project data to files compatible with Excel and the like to be able to manage data from the project;17/11/2020;22/11/2020;13;40
+As a user I want to have a user interface to use functions of the program;17/11/2020;22/11/2020;8;20
+As a user I want to be able to be part of several teams at the same time to be able to work on multiple projects;17/11/2020;22/11/2020;3;15
+As Project leader I want to be able to present date with graphical aids to improve communication;17/11/2020;22/11/2020;13;40
+As a manager I want to create different user responsibility classes to prevent mistakes of inexperienced users;17/11/2020;29/12/2020;5;20
+As a project leader I want to have a kanban board to visualize team sprint;17/11/2020;28/12/2020;8;20
+As a team we want to move the project to javaFX to be able to implement GUI;17/11/2020;02/12/2020;8;20
+As a logged in user I only want to see teams and projects that I belong to;17/11/2020;02/12/2020;5;15
+As a team we want IO fully implemented so we can start working with real project data;17/11/2020;02/12/2020;8;24
+As a team leader or team member I want to be able to chat and communicate with my other team members;17/11/2020;02/12/2020;8;24
+As a team leader or a member I want to be able to see and follow a schedule;17/11/2020;04/01/2021;8;24
+As a project leader I want to be able to review and change in the schedule;17/12/2020;05/01/2021;5;20
+As a developer I want to resolve bugs to mitigate quality issues;17/12/2020;05/01/2021;5;20
+As a project leader I want to secure the quality of project delivery to secure company reputation;17/11/2020;07/01/2021;13;40
+As a project member I want to present the project to be able to clear out the content of the system;17/11/2020;07/01/2021;13;40
+As a project leader I want to create project documentation to be able to revise project content;17/11/2020;07/01/2021;13;40

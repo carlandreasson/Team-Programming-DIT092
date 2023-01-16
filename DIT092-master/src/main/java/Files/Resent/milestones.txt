@@ -1,0 +1,5 @@
+Initialization;13/11/2020
+Initial Plan;27/11/2020
+First System delivery;11/12/2020
+System Improvements;28/12/2020
+Project Delivery;08/01/2020

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" stylesheets="@../Css/Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.CreateRiskView">
+   <children>
+      <Button layoutX="545.0" layoutY="410.0" mnemonicParsing="false" onAction="#createRisk" prefHeight="20.0" prefWidth="100.0" text="Create">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="55.0" layoutY="410.0" mnemonicParsing="false" onAction="#back" prefHeight="20.0" prefWidth="100.0" text="Back">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Text layoutX="18.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Risk" wrappingWidth="252.66664123535156">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="createRisk" layoutX="124.0" layoutY="72.0" onAction="#createRisk" prefHeight="21.0" prefWidth="450.0" promptText="Create Risk">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </TextField>
+      <Spinner fx:id="occurrence" amountToStepBy="1" initialValue="0" layoutX="268.0" layoutY="150.0" max="10" min="1" />
+      <Spinner fx:id="severity" amountToStepBy="1" initialValue="0" layoutX="98.0" layoutY="150.0" max="10" min="1" />
+      <Button layoutX="104.0" layoutY="198.0" mnemonicParsing="false" onAction="#setSeverity" prefHeight="21.0" prefWidth="149.0" text="Set Severity">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="274.0" layoutY="198.0" mnemonicParsing="false" onAction="#setOccurance" prefHeight="21.0" prefWidth="149.0" text="Set Occurance">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <ListView fx:id="risks" layoutX="105.0" layoutY="249.0" prefHeight="137.0" prefWidth="490.0" />
+      <Spinner fx:id="impact" amountToStepBy="1" initialValue="0" layoutX="441.0" layoutY="150.0" max="10000" min="1" />
+      <Button layoutX="447.0" layoutY="198.0" mnemonicParsing="false" onAction="#setImpact" prefHeight="21.0" prefWidth="149.0" text="Set Impact">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Text layoutX="98.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Severity:" />
+      <Text layoutX="268.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Occurance:" />
+      <Text layoutX="441.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Impact:" />
+      <Text layoutX="104.0" layoutY="245.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Risks:" />
+   </children>
+</Pane>

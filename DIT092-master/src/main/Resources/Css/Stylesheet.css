@@ -1,0 +1,95 @@
+* {
+    dark-primary-color: #388E3C; 
+    default-primary-color: #4CAF50; 
+    light-primary-color: #C8E6C9; 
+    text-primary-color: #FFFFFF; 
+    accent-color: #FFC107; 
+    primary-text-color: #212121; 
+    secondary-text-color: #757575; 
+    divider-color: #BDBDBD; 
+    }
+    
+    .check-box{
+      -fx-text-fill: primary-text-color;
+    }
+    .pane {
+      -fx-background-color: light-primary-color;
+    }
+    
+    .button {
+      -fx-font: 12px "Arial";
+      -fx-text-fill: primary-text-color;
+      -fx-padding: 3;
+      -fx-background-color: default-primary-color;
+      -fx-background-radius: 8;
+      -fx-text-fill: white;
+    
+    }
+    
+    .text-field{
+      -fx-background-color: transparent;
+      -fx-border-color: dark-primary-color;
+      -fx-border-width: 0px 0px 2px 0px;
+    }
+    
+    
+    #leftLogIn{
+      -fx-background-color: default-primary-color;
+    }
+    
+    #password{
+      -fx-background-color: transparent;
+      -fx-border-color: dark-primary-color;
+      -fx-border-width: 0px 0px 2px 0px;
+    }
+    
+    #icon{
+      -fx-background-color: default-primary-color;
+    }
+    
+    #lable{
+      -fx-text-fill: dark-primary-color;
+      -fx-font-weight: bold;
+      -fx-font-family: Manjari;
+      -fx-font-size: 30px;
+    }
+    
+    
+    .table-view .column-header-background{
+      -fx-background-color: default-primary-color;
+      -fx-padding: 0 0 5px 0;
+    
+    }
+    
+    .table-view .column-header .label {
+      -fx-text-fill: white;
+    }
+    
+    .table-view .column-header {
+      -fx-background-color: transparent;
+    }
+    
+    .table-view .table-cell{
+      -fx-border-color: transparent;
+      -fx-padding: 2 0 2 10px;
+    }
+    
+    .split-menu-button{
+      -fx-background-color:white;
+      
+     
+    }
+    .split-menu-button .label {
+      -fx-background-color: transparent;
+      
+    
+    }
+    .split-menu-button .arrow-button {
+      -fx-background-color: default-primary-color;
+    }
+    
+    .titled-pane > .title {
+      -fx-background-color: default-primary-color;
+      -fx-padding: 0 0 5px 0;
+      
+    }

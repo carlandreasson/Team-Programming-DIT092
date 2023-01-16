@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" stylesheets="@../Css/Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.CreateTeamView">
+   <children>
+      <Button fx:id="createButton" layoutX="570.0" layoutY="406.0" mnemonicParsing="false" onAction="#createTeam" prefHeight="20.0" prefWidth="100.0" text="Create">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Create Team" wrappingWidth="142.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <TextField fx:id="teamNameField" layoutX="129.0" layoutY="109.0" prefHeight="30.0" prefWidth="443.0" promptText="Team Name">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Text fx:id="teamIDDisplay" layoutX="157.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="-1">
+         <font>
+            <Font size="18.0" />
+         </font></Text>
+      <Text layoutX="41.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Users:" wrappingWidth="40.0" />
+      <Button layoutX="309.0" layoutY="261.0" mnemonicParsing="false" onAction="#moveSelectedToTeam" prefHeight="30.0" prefWidth="75.0" text="Add">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="310.0" layoutY="337.0" mnemonicParsing="false" onAction="#removeSelectedFromTeam" prefHeight="30.0" prefWidth="75.0" text="Remove">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Text layoutX="423.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Team:" wrappingWidth="40.0" />
+      <Button layoutX="30.0" layoutY="406.0" mnemonicParsing="false" onAction="#backButton" prefHeight="20.0" prefWidth="100.0" text="Back">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <ListView fx:id="usersListView" layoutX="41.0" layoutY="218.0" prefHeight="179.0" prefWidth="231.0" />
+      <ListView fx:id="usersInTeamListView" layoutX="423.0" layoutY="218.0" prefHeight="179.0" prefWidth="231.0" />
+      <Text fx:id="teamID1" layoutX="130.0" layoutY="95.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="errorMessage" fill="RED" layoutX="94.0" layoutY="179.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="513.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

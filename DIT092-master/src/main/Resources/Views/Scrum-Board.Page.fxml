@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" stylesheets="@../Css/Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.ScrumBoardView">
+   <children>
+      <Button layoutX="20.0" layoutY="73.0" mnemonicParsing="false" onAction="#addStory" prefHeight="20.0" prefWidth="100.0" text="Add Story">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="MoveRightArrow" layoutX="433.0" layoutY="383.0" mnemonicParsing="false" onAction="#moveRight" prefHeight="45.0" prefWidth="80.0" text="→">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="MoveLeftArrow" layoutX="298.0" layoutY="383.0" mnemonicParsing="false" onAction="#moveLeft" prefHeight="45.0" prefWidth="80.0" text="←">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </Button>
+      <Button layoutX="20.0" layoutY="215.0" mnemonicParsing="false" onAction="#delete" prefHeight="20.0" prefWidth="100.0" text="Delete">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="20.0" layoutY="400.0" mnemonicParsing="false" onAction="#back" prefHeight="20.0" prefWidth="100.0" text="Back">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Scrum Board" wrappingWidth="142.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="140.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text layoutX="140.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Open:" />
+      <Text layoutX="276.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="To Do:" />
+      <Text layoutX="411.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doing:" />
+      <Text layoutX="546.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Closed:" />
+      <ListView fx:id="closed" layoutX="545.0" layoutY="73.0" prefHeight="278.0" prefWidth="125.0" />
+      <ListView fx:id="open" layoutX="140.0" layoutY="73.0" prefHeight="278.0" prefWidth="125.0" />
+      <ListView fx:id="doing" layoutX="410.0" layoutY="73.0" prefHeight="278.0" prefWidth="125.0" />
+      <ListView fx:id="toDo" layoutX="275.0" layoutY="73.0" prefHeight="278.0" prefWidth="125.0" />
+   </children>
+</Pane>

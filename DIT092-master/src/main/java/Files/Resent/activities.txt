@@ -1,0 +1,14 @@
+1.1 Develop project documents;3
+1.2 Set up collaborative codebase;5
+1.3 Brainstorming;3
+1.4 Main scoping;2
+2.1 Sprint planning activities;1
+3.1 Design Base functionality;8
+3.2 Develop Basic System;4
+3.3 Design GUI ;4
+3.4 Implement GUI;4
+3.5 Develop Management Tool;8
+3.6 Saving and loading;5
+4.1 Testing;1
+4.2 Code refinement;4
+4.3 Project documentation;3

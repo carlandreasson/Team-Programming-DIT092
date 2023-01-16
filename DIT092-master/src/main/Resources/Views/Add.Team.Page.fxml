@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="700.0" stylesheets="@../Css/Stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.AddTeamView">
+   <children>
+      <Button layoutX="20.0" layoutY="400.0" mnemonicParsing="false" onAction="#back" prefHeight="20.0" prefWidth="100.0" text="Back">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Text layoutX="14.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Project Name" wrappingWidth="142.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text layoutX="140.0" layoutY="140.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Teams" />
+      <Button layoutX="20.0" layoutY="157.0" mnemonicParsing="false" onAction="#addTeam" prefHeight="20.0" prefWidth="100.0" text="Add Team">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <ListView fx:id="teamListView" layoutX="140.0" layoutY="157.0" prefHeight="270.0" prefWidth="447.0" />
+      <Button layoutX="20.0" layoutY="188.0" mnemonicParsing="false" onAction="#removeTeam" prefHeight="20.0" prefWidth="100.0" text="Remove Team">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="20.0" layoutY="225.0" mnemonicParsing="false" onAction="#openTeam" prefHeight="20.0" prefWidth="100.0" text="Open Team">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
